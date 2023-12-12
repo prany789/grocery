@@ -55,6 +55,7 @@ import kotlinx.coroutines.launch
 fun HomeScreen(homeViewModel: HomeViewModel = viewModel()) {
 
     val scaffoldState = rememberScaffoldState()
+    // val value
     val coroutineScope = rememberCoroutineScope()
 
     homeViewModel.getUserData()
@@ -318,7 +319,7 @@ fun HomeScreen(homeViewModel: HomeViewModel = viewModel()) {
                                 .clip(shape = RoundedCornerShape(15.dp)))
                     }
                     Text(
-                        text = "Hi, Rakesh!",
+                        text = "Hi, Praneeth!",
                         color = Color.Black,
                         style = TextStyle(
                             fontSize = 14.sp,

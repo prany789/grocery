@@ -51,6 +51,7 @@ import com.rakesh.grocery.data.home.HomeViewModel
 import kotlinx.coroutines.launch
 
 @Composable
+// composable
 fun HomeScreen(homeViewModel: HomeViewModel = viewModel()) {
 
     val scaffoldState = rememberScaffoldState()
